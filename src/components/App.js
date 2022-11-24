@@ -23,10 +23,14 @@ function App() {
     return () => clearTimeout(timeout)
   }, [html, css, js])
 
+ 
+
   return (
     <>
     <Welcome />
+   
       <div className="pane top-pane">
+     
         <Editor
           language="xml"
           displayName="HTML"
